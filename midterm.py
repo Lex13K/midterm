@@ -55,34 +55,45 @@ print("Welcome to the MIDTERM")
 #
 
 # 5
+#
+# with open('text.txt') as file:
+#     book = file.read()     # just an old text tile because i was interested if there was a word like that in there
+# file.close()
+#
+#
+#
+#
+# def unanCkecker(text):
+#     c = 0
+#     punct = ",.-'!?\"()*+/:;"  # defining punctuations for later
+#
+#     lines = text.splitlines()  # i assumed the text given could have several lines
+#     i = 0
+#     for line in lines:
+#         words = lines[i].split(' ') # spliting word by word
+#         i += 1
+#         for word in words:
+#             for p in punct:
+#                 text = text.replace(p, "")  # replacing them with nothing so they dont block me from counting the words properly
+#             word = word.lower() # doing lowercases
+#             if word.startswith('un') and word.endswith('an'): # the actual checking happens here
+#                 c += 1
+#     return c
+#
+#
+# print(unanCkecker("the umbrella was very unananan by alexander unan")) # just random text
 
-with open('text.txt') as file:
-    book = file.read()     # just an old text tile because i was interested if there was a word like that in there
-file.close()
+# def secondUnanCkecker(text):
+#     for p in len(text):
+#         if
 
-
-
-
-def unanCkecker(text):
-    c = 0
-    punct = ",.-'!?\"()*+/:;"  # defining punctuations for later
-
-    lines = text.splitlines()  # i assumed the text given could have several lines
-    i = 0
-    for line in lines:
-        words = lines[i].split(' ') # spliting word by word
-        i += 1
-        for word in words:
-            for p in punct:
-                text = text.replace(p, "")  # replacing them with nothing so they dont block me from counting the words properly
-            word = word.lower() # doing lowercases
-            if word.startswith('un') and word.endswith('an'): # the actual checking happens here
-                c += 1
-    return c
-
-
-print(unanCkecker("the umbrella was very unananan by alexander unan")) # just random text
-
+# 6
+#
+# ostring = "Hello, World!"
+# # ostring[0] = "J"
+# new = "HHH" + ostring[1:]
+#
+# print(new)
 # 7
 # import random
 # random_numbers = []
@@ -93,3 +104,44 @@ print(unanCkecker("the umbrella was very unananan by alexander unan")) # just ra
 #     if random_numbers[i] > 80:
 #         random_numbers[i] = -random_numbers[i]
 #     print(random_numbers[i])
+
+# 8
+
+# def linkValidity(text):
+#     if text.startswith("http://") or text.startswith("https://") or text.startswith("ftp://"):
+#         return True  # there are many things that define a valid link but given the current class knowledge
+#     else:            # i very simply checked if it starts with one of these but still there are a lot of links
+#         return False # this function does not account for
+#
+#
+# text = "https://github.com/Lex13K/midterm"
+#
+# print(linkValidity(text))
+
+# 9
+# def daysOld(date):
+#     dateNow = "01-03-2024"
+#     parts = date.split('-')
+#     day = int(parts[0])
+#     month = int(parts[1])
+#     year = int(parts[2])        # getting just what we need plus other info for later development of function
+#     parts = dateNow.split('-')
+#     dayNow = int(parts[0])
+#     monthNow = int(parts[1])
+#     yearNow = int(parts[2])    # getting what we need
+#
+#     total_days = 0
+#     for year in range(year + 1, yearNow):  # exclude birth year and current year
+#         if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0): # factoring in for leap years
+#             total_days += 366
+#         else:
+#             total_days += 365
+#
+#     return total_days
+#
+# birthDate = "13-11-2004"
+# print(daysOld(birthDate))
+
+# 10
+
+# https://github.com/Lex13K/midterm author
