@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa759fe4-e678-4820-94e1-6a3e1d017c56" name="Changes" comment="bla">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/midterm.py" beforeDir="false" afterPath="$PROJECT_DIR$/midterm.py" afterDir="false" />
-    </list>
+    <list default="true" id="fa759fe4-e678-4820-94e1-6a3e1d017c56" name="Changes" comment="blablabla" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709283371816</updated>
-      <workItem from="1709283374573" duration="3713000" />
+      <workItem from="1709283374573" duration="4189000" />
     </task>
     <task id="LOCAL-00001" summary="bla">
       <option name="closed" value="true" />
@@ -85,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709285552173</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="blablabla">
+      <option name="closed" value="true" />
+      <created>1709287162793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709287162793</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,9 +98,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bla" />
-    <option name="LAST_COMMIT_MESSAGE" value="bla" />
+    <MESSAGE value="blablabla" />
+    <option name="LAST_COMMIT_MESSAGE" value="blablabla" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/midterm$midterm.coverage" NAME="midterm Coverage Results" MODIFIED="1709286901493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/midterm$midterm.coverage" NAME="midterm Coverage Results" MODIFIED="1709287139744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
