@@ -144,4 +144,4 @@ print("Welcome to the MIDTERM")
 
 # 10
 
-# https://github.com/Lex13K/midterm author
+# https://github.com/Lex13K/midterm author alex
